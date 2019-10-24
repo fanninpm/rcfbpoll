@@ -12,7 +12,7 @@ from .reddit import message_voters
 from collections import defaultdict
 from math import ceil
 import csv
-# from proxy.views import proxy_view
+from proxy.views import proxy_view
 
 
 @register.filter(name='lookup')
